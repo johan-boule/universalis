@@ -5,13 +5,10 @@
 ///\file
 ///\brief meta header
 
-#ifndef UNIVERSALIS__INCLUDED
-#define UNIVERSALIS__INCLUDED
+#ifndef UNIVERSALIS__OS__INCLUDED
+#define UNIVERSALIS__OS__INCLUDED
 #pragma once
 
-#include "compiler.hpp"
-#include "os.hpp"
-#include "standard_library.hpp"
-#include "processor.hpp"
+#include "os/os.hpp"
 
 #endif

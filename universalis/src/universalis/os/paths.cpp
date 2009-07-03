@@ -2,16 +2,9 @@
 // copyright 1999-2007 johan boule <bohan@jabber.org>
 // copyright 2004-2007 psycledelics http://psycle.pastnotecut.org
 
-///\file
-///\brief meta header
-
-#ifndef UNIVERSALIS__INCLUDED
-#define UNIVERSALIS__INCLUDED
-#pragma once
-
-#include "compiler.hpp"
-#include "os.hpp"
-#include "standard_library.hpp"
-#include "processor.hpp"
-
-#endif
+///\implementation universalis::os::paths
+#include "paths.hpp"
+#include "paths/implementation.hpp"
+namespace universalis { namespace os { namespace paths {
+	#include "paths/injection/implementation.hpp"
+}}}

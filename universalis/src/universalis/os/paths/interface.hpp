@@ -2,16 +2,14 @@
 // copyright 1999-2007 johan boule <bohan@jabber.org>
 // copyright 2004-2007 psycledelics http://psycle.pastnotecut.org
 
-///\file
-///\brief meta header
+///\interface universalis::os::paths
 
-#ifndef UNIVERSALIS__INCLUDED
-#define UNIVERSALIS__INCLUDED
+#ifndef UNIVERSALIS__OS__PATHS__INTERFACE__INCLUDED
+#define UNIVERSALIS__OS__PATHS__INTERFACE__INCLUDED
 #pragma once
 
-#include "compiler.hpp"
-#include "os.hpp"
-#include "standard_library.hpp"
-#include "processor.hpp"
+#include <universalis/detail/project.hpp>
+#include <boost/filesystem/path.hpp>
+#include <string>
 
 #endif

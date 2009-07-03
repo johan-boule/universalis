@@ -2,16 +2,10 @@
 // copyright 1999-2007 johan boule <bohan@jabber.org>
 // copyright 2004-2007 psycledelics http://psycle.pastnotecut.org
 
-///\file
-///\brief meta header
-
-#ifndef UNIVERSALIS__INCLUDED
-#define UNIVERSALIS__INCLUDED
-#pragma once
-
-#include "compiler.hpp"
-#include "os.hpp"
-#include "standard_library.hpp"
-#include "processor.hpp"
-
-#endif
+///\implementation universalis::os::paths
+#include <universalis/os/exception.hpp>
+#include <universalis/os/exceptions/code_description.hpp>
+#include <universalis/os/detail/microsoft/max_path.hpp>
+#include <cstdlib> // std::getenv for user's home dir
+#include <sstream>
+#include <iostream>
