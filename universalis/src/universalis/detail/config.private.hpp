@@ -5,6 +5,4 @@
 #define UNIVERSALIS__DETAIL__CONFIG__PRIVATE__INCLUDED
 #pragma once
 
-//#define UNIVERSALIS__SHARED
-
 #endif
